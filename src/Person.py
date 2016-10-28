@@ -4,6 +4,7 @@ class Person:
   def __init__(self, name, email):
     self.name = name
     self.email = email
+    self.partner = None
 
   def setPartner(self, person):
     self.partner = person
