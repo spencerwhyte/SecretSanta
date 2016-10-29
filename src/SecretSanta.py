@@ -25,7 +25,7 @@ def main():
 		print "Name: " + member.getName()
 		print "Email: " + member.getEmail()
 		if (member.getPartner() is not None):
-			print "Partner " + member.getPartner().getName()
+			print "Partner " + "Spencer Whyte" 
 		print " "
 
 if __name__ == "__main__":
